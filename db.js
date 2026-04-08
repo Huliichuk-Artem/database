@@ -34,13 +34,7 @@ const initializeDatabase = async () => {
 };
 
 async function addKitten(name, breed, color, furType, energyLevel) {
-
-   const validBreeds = ['persian', 'siamese', 'british'];
-   if (!validBreeds.includes(breed.toLowerCase())) {
-      console.error(`Помилка: breed має бути одним з: ${validBreeds.join(', ')}`);
-      return;
-   }
-
+   
    const validFurTypes = ['short', 'long'];
    if (!validFurTypes.includes(furType.toLowerCase())) {
       console.error(`Помилка: fur_type має бути одним з: ${validFurTypes.join(', ')}`);
