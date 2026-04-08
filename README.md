@@ -9,6 +9,5 @@ node db.js update <id> <рівень_енергії> - оновити рівен
 node db.js delete <id> - видалити кошеня  
 
 Валідація:  
-Порода: persian, siamese, british  
 Тип шерсті: short, long  
 Рівень енергії: від 1 до 3    
